@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    margin-top: 10px;
+    content: "";
+    clear: both;
+    display: table;
+    padding: 0 10px;
+}
+
+.details {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+
+.image {
+    width: 50%;
+    float: left;
+}
+
+.details > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.details > div > img {
+}
+
+.details > div > span {
+    padding: 0 10px;
+}
+
+.details > div > span.openingHours {
+    width: 60%;
+}
+
+.restaurantImage {
+    width: 100%;
+    border-radius: 15px;
+}

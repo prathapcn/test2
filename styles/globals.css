@@ -1,0 +1,32 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    /* COLORS */
+    --lightest-blue-color: #F7F7F7;
+    --purple: #503E9D;
+    --light-grey: #626264;
+    --orange: #FB6D3A;
+    --text-color: #182135;
+
+    color: var(--text-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#__next {
+  height: 100%;
+}

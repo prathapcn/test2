@@ -1,0 +1,11 @@
+.restaurantDetailsContainer {
+    margin: 15px;
+    height: 100%;
+}
+
+.hr {
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

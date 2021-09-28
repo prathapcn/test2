@@ -1,0 +1,73 @@
+.container {
+    background: var(--lightest-blue-color);
+    height: 100%;
+    border-radius: 0px 24px 24px 0px;
+    padding: 15px;
+    position: fixed;
+    width: 22%;
+}
+
+.appTitle {
+    padding: 10px;
+    display: flex;
+}
+
+.appTitle a span {
+    font-weight: bold;
+    padding-left: 10px;
+    color: #2D2D2D;
+    align-items: center;
+}
+
+.navMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navMenu ul li {
+    color: var(--light-grey);
+    margin-bottom: 10px;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navMenu ul li span {
+    padding: 0 10px;
+}
+
+.navMenu ul li.menuActive {
+    padding: 10px;
+    background-color: var(--purple);
+}
+
+.navMenu ul li.menuActive span {
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.user {
+    position: absolute;
+    bottom: 0;
+    padding: 20px 10px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.user span {
+    display: block;
+}
+
+.user span:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user span:nth-child(2) {
+    font-size: 11px;
+}

@@ -1,0 +1,20 @@
+.container {
+    padding: 0px 10px;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container ul li {
+    display: inline-flex;
+    margin: 5px 15px 5px 0px;
+    align-items: center;
+}
+
+.container ul li span {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 0px 10px;
+}

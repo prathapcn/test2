@@ -1,0 +1,22 @@
+.container {
+    /* display: flex; */
+    height: 100%;
+    width: 100%;
+    /* content: "";
+    clear: both;
+    display: table; */
+}
+
+.sider {
+    /* flex-grow: 1; */
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+
+.main {
+    /* flex-grow: 11; */
+    width: 78%;
+    height: 100%;
+    float: left;
+}
